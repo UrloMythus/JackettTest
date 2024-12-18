@@ -40,4 +40,4 @@ USER user
 EXPOSE 9117
 
 # Set the default command to run Jackett manually without auto-update
-CMD ["/opt/Jackett/Jackett/jackett"]
+CMD ["/opt/Jackett/Jackett/jackett","--NoUpdates"]
